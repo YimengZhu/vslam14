@@ -1,0 +1,20 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.5)
+
+set(CMAKE_CXX_FLAGS "-std=c++11 -O3")
+
+PROJECT(direct_method)
+
+find_package(OpenCV REQUIRED)
+find_package(Sophus REQUIRED)
+find_package(Pangolin REQUIRED)
+
+INCLUDE_DIRECTORIES(${Sophus_INCLUDE_DIRS})
+INCLUDE_DIRECTORIES(${Pangolin_INCLUDE_DIRS})
+INCLUDE_DIRECTORIES(${OpenCV_INCLUDE_DIRS})
+INCLUDE_DIRECTORIES("usr/include/eigen3")
+
+SET(Sophus_LIBS libSophus.so)
+
+ADD_EXECUTABLE(${PROJECT_NAME} direct_method.cpp)
+
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${OpenCV_LIBS} ${Sophus_LIBS} ${Pangolin_LIBRARIES})

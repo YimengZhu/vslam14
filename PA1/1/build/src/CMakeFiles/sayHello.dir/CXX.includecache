@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/hello.h
+
+/home/yimeng/Downloads/PA1/cmakeprac/src/useHello.cpp
+hello.h
+/home/yimeng/Downloads/PA1/cmakeprac/src/hello.h
+

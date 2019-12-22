@@ -1,0 +1,8 @@
+PROJECT (HELLO)
+cmake_minimum_required(VERSION 3.5)
+SET(CMAKE_BUILD_TYPE Release)
+
+INCLUDE_DIRECTORIES(include)
+ADD_SUBDIRECTORY(src) 
+
+INSTALL(FILES "include/hello.h" DESTINATION include)

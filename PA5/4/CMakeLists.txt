@@ -1,0 +1,18 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.5)
+
+set(CMAKE_CXX_FLAGS "-std=c++11 -O3")
+
+PROJECT(ICP)
+
+find_package(Sophus REQUIRED)
+find_package(Pangolin REQUIRED)
+
+INCLUDE_DIRECTORIES(${Sophus_INCLUDE_DIRS})
+INCLUDE_DIRECTORIES(${Pangolin_INCULEDE_DIRS})
+INCLUDE_DIRECTORIES("/usr/include/eigen3")
+
+SET(Sophus_LIBRARIES libSophus.so)
+
+ADD_EXECUTABLE(ICP draw_trajectory.cpp)
+
+TARGET_LINK_LIBRARIES(ICP ${Sophus_LIBRARIES} ${Pangolin_LIBRARIES}) 

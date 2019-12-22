@@ -1,0 +1,14 @@
+/home/yimeng/Downloads/PA1/cmakeprac/build/CMakeFiles/install.dir
+/home/yimeng/Downloads/PA1/cmakeprac/build/CMakeFiles/list_install_components.dir
+/home/yimeng/Downloads/PA1/cmakeprac/build/CMakeFiles/install/strip.dir
+/home/yimeng/Downloads/PA1/cmakeprac/build/CMakeFiles/install/local.dir
+/home/yimeng/Downloads/PA1/cmakeprac/build/CMakeFiles/rebuild_cache.dir
+/home/yimeng/Downloads/PA1/cmakeprac/build/CMakeFiles/edit_cache.dir
+/home/yimeng/Downloads/PA1/cmakeprac/build/src/CMakeFiles/install.dir
+/home/yimeng/Downloads/PA1/cmakeprac/build/src/CMakeFiles/list_install_components.dir
+/home/yimeng/Downloads/PA1/cmakeprac/build/src/CMakeFiles/rebuild_cache.dir
+/home/yimeng/Downloads/PA1/cmakeprac/build/src/CMakeFiles/edit_cache.dir
+/home/yimeng/Downloads/PA1/cmakeprac/build/src/CMakeFiles/hello.dir
+/home/yimeng/Downloads/PA1/cmakeprac/build/src/CMakeFiles/sayHello.dir
+/home/yimeng/Downloads/PA1/cmakeprac/build/src/CMakeFiles/install/strip.dir
+/home/yimeng/Downloads/PA1/cmakeprac/build/src/CMakeFiles/install/local.dir
